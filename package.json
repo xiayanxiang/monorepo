@@ -7,7 +7,8 @@
   "scripts": {
     "build:utils": "pnpm --filter utils run build",
     "publish:utils": "pnpm --filter utils run publish:auto",
-    "release:utils:version": "pnpm --filter utils run release:version"
+    "release:utils:version": "pnpm --filter utils run release:version",
+    "release:utils:auto": "pnpm --filter utils run release:auto"
   },
   "keywords": [],
   "author": "",

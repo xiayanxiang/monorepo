@@ -28,7 +28,8 @@
     "release": "release-it --tag @fuxi/eevee-utils --only-version",
     "release:minor": "release-it -- minor --ci",
     "publish:auto": "sh publish.sh patch",
-    "release:version": "release-it"
+    "release:version": "release-it",
+    "release:auto": "sh release-it.sh "
   },
   "files": [
     "lib"
