@@ -18,6 +18,7 @@ importers:
     specifiers:
       '@release-it/bumper': ^4.0.2
       '@release-it/conventional-changelog': ^5.1.1
+      '@release-it/keep-a-changelog': ^3.1.0
       '@rollup/plugin-node-resolve': ^15.0.1
       '@rollup/plugin-terser': ^0.4.0
       '@types/node': ^18.15.0
@@ -33,6 +34,7 @@ importers:
     devDependencies:
       '@release-it/bumper': 4.0.2_release-it@15.9.3
       '@release-it/conventional-changelog': 5.1.1_release-it@15.9.3
+      '@release-it/keep-a-changelog': 3.1.0_release-it@15.9.3
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.20.2
       '@rollup/plugin-terser': 0.4.0_rollup@3.20.2
       '@types/node': 18.15.11
@@ -2550,6 +2552,17 @@ packages:
       conventional-recommended-bump: 6.1.0
       release-it: 15.9.3
       semver: 7.3.8
+    dev: true
+
+  /@release-it/keep-a-changelog/3.1.0_release-it@15.9.3:
+    resolution: {integrity: sha512-o8lxZCAFwFkFpo88aIIgS5dR3kDy6yLjJVpe9QAGNY6tpKMMRHxsiJ8MS5NvrEeIC2VTzOoOjN/CDvdd3a4+/A==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      release-it: ^15.0.0-esm.4
+    dependencies:
+      detect-newline: 4.0.0
+      release-it: 15.9.3
+      string-template: 1.0.0
     dev: true
 
   /@rollup/plugin-commonjs/22.0.2_rollup@2.79.1:
@@ -12483,6 +12496,10 @@ packages:
   /strict-uri-encode/2.0.0:
     resolution: {integrity: sha512-QwiXZgpRcKkhTj2Scnn++4PKtWsH0kpzZ62L2R6c/LUVYv7hVnZqcg2+sMuT6R7Jusu1vviK/MFsu6kNJfWlEQ==}
     engines: {node: '>=4'}
+    dev: true
+
+  /string-template/1.0.0:
+    resolution: {integrity: sha512-SLqR3GBUXuoPP5MmYtD7ompvXiG87QjT6lzOszyXjTM86Uu7At7vNnt2xgyTLq5o9T4IxTYFyGxcULqpsmsfdg==}
     dev: true
 
   /string-width/2.1.1:
