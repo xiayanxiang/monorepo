@@ -2,7 +2,7 @@
   "name": "utils",
   "version": "0.0.1",
   "main": "src/index.js",
-  "repository": "https://github.com/xiayanxiang/utils-test.git",
+  "repository": "https://github.com/xiayanxiang/monorepo.git",
   "author": "xiangyanxia",
   "license": "MIT",
   "type": "module",
