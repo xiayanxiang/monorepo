@@ -1,6 +1,6 @@
 {
   "name": "utils",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "main": "src/index.js",
   "repository": "https://github.com/xiayanxiang/monorepo.git",
   "author": "xiangyanxia",
