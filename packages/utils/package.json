@@ -7,6 +7,7 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
+    "@release-it/bumper": "^4.0.2",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.4.0",
     "@types/node": "^18.15.0",
@@ -27,7 +28,7 @@
     "release": "release-it --tag @fuxi/eevee-utils --only-version",
     "release:minor": "release-it -- minor --ci",
     "publish:auto": "sh publish.sh patch",
-    "release:version": "release-it --release-version"
+    "release:version": "release-it"
   },
   "files": [
     "lib"
