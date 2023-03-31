@@ -6,7 +6,8 @@
   "repository": "https://github.com/xiayanxiang/monorepo.git",
   "scripts": {
     "build:utils": "pnpm --filter utils run build",
-    "publish:utils": "pnpm --filter utils run publish:auto"
+    "publish:utils": "pnpm --filter utils run publish:auto",
+    "release:utils:version": "pnpm --filter utils run release:version"
   },
   "keywords": [],
   "author": "",

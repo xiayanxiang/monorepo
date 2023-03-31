@@ -26,7 +26,8 @@
     "build:dumi": "dumi build",
     "release": "release-it --tag @fuxi/eevee-utils --only-version",
     "release:minor": "release-it -- minor --ci",
-    "publish:auto": "sh publish.sh patch"
+    "publish:auto": "sh publish.sh patch",
+    "release:version": "release-it --release-version"
   },
   "files": [
     "lib"
