@@ -1,0 +1,39 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "https://github.com/xiayanxiang/utils-test.git",
+  "author": "xiangyanxia",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@types/node": "^18.15.0",
+    "@vitejs/plugin-legacy": "^4.0.1",
+    "bunchee": "^2.2.1",
+    "dumi": "^2.1.15",
+    "release-it": "^15.9.1",
+    "rollup": "^3.19.1",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "terser": "^5.16.6",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "build": "rollup --config ./rollup.config.js",
+    "dev:dumi": "dumi dev",
+    "build:dumi": "dumi build",
+    "release": "release-it --tag @fuxi/eevee-utils --only-version",
+    "release:minor": "release-it -- minor --ci",
+    "publish:auto": "sh publish.sh patch"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "main": "lib/index.js",
+    "module": "lib/esm/index.js",
+    "registry": "http://localhost:4873"
+  }
+}

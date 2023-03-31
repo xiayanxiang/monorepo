@@ -1,0 +1,17 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://github.com/xiayanxiang/monorepo.git",
+  "scripts": {
+    "build:utils": "pnpm --filter utils run build",
+    "publish:utils": "pnpm --filter utils run publish:auto"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",  
+  "dependencies": {
+    "lodash": "4.15.0"
+  }
+}
